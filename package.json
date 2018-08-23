@@ -87,7 +87,7 @@
     "mocha": "cross-env NODE_ENV=test mocha",
     "test-watch": "cross-env NODE_ENV=test mocha --watch --reporter spec",
     "prepublish": "npm run build",
-    "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit"
+    "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit",
      "runner": "node server/server.js",
     "lighthouse:ci": "lighthouse --output-path=report/lighthouse-report.html --quiet --chrome-flags='--headless --no-sandbox=true' // your website URL//"
      },
